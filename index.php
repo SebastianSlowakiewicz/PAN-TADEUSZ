@@ -1,3 +1,5 @@
+<?php
+echo('
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -31,7 +33,8 @@
     <a href="./k10.html" class="list-group-item list-group-item-action"><i class="bi bi-bookmark-fill"></i>Księga 10</a>
     <a href="./k11.html" class="list-group-item list-group-item-action"><i class="bi bi-bookmark-fill"></i>Księga 11</a>
     <a href="./k12.html" class="list-group-item list-group-item-action"><i class="bi bi-bookmark-fill"></i>Księga 12</a>
-    <div class="col-6"><div><img src="./pantadeusz.jpeg" class="rounded mx-auto d-block" alt="..."></div>
+    <div class="col=9">
+      <img src="./pantadeusz.jpeg" class="img-fluid rounded" alt="...">
 </div>
 </div>
 </div>
@@ -47,3 +50,4 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
+')
